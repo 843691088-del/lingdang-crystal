@@ -1,22 +1,142 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0d3c31" />
-    <meta
-      name="description"
-      content="为铃铛一家定制的水晶寓意、专属手串配方与手机DIY设计台。"
-    />
-    <meta property="og:title" content="铃铛的晶运手札" />
-    <meta property="og:description" content="为一家人的日常，配一串温柔的好运。" />
-    <meta property="og:image" content="./og.png" />
-    <link rel="icon" href="./favicon.svg" />
-    <title>铃铛的晶运手札</title>
-    <script type="module" crossorigin src="./assets/index-BFiOvDYU.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DLAU11EC.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0d3c31">
+  <meta name="description" content="铃铛一家人的水晶寓意、专属手串配方与手机 DIY 设计台。">
+  <title>铃铛的晶运手札</title>
+  <link rel="stylesheet" href="./assets/index-DLAU11EC.css">
+  <style>
+    .hero-art{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 28%,#ffeac0 0 18%,transparent 42%),linear-gradient(155deg,#194f43,#082d26 70%);overflow:hidden}
+    .hero-family{display:grid;grid-template-columns:repeat(2,118px);gap:18px;transform:translateY(-25px)}
+    .hero-person{height:140px;border:1px solid #efd08c66;border-radius:60px 60px 28px 28px;background:linear-gradient(160deg,#fff3,#fff1);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;box-shadow:0 18px 45px #001b1666}
+    .hero-person b{font-size:48px}.hero-person span{font-size:14px;letter-spacing:2px;margin-top:8px}
+    .hero-copy{z-index:3}.hero-shade{z-index:2;background:linear-gradient(180deg,transparent 20%,#062a24cc 70%,#062a24)}
+    .mini-bracelet i{display:inline-block}
+    .lite-tip{margin:0;padding:12px 22px;background:#fff5d8;color:#654c22;font-size:13px;text-align:center}
+    @media(max-width:380px){.hero-family{grid-template-columns:repeat(2,96px)}.hero-person{height:122px}}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="hero-art">
+      <div class="hero-family">
+        <div class="hero-person"><b>🌸</b><span>铃铛</span></div>
+        <div class="hero-person"><b>🐯</b><span>李水子</span></div>
+        <div class="hero-person"><b>📚</b><span>李钰阳</span></div>
+        <div class="hero-person"><b>🚗</b><span>李雨彤</span></div>
+      </div>
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-copy">
+      <span class="bell">✦ 铃 ✦</span>
+      <p>LINGDANG'S CRYSTAL NOTES</p>
+      <h1>铃铛的<br><em>晶运手札</em></h1>
+      <span class="hero-sub">为一家人的日常，配一串温柔的好运</span>
+      <a href="#family">看看专属方案 <b>↓</b></a>
+    </div>
+  </section>
+
+  <p class="lite-tip">水晶寓意来自传统文化与个人仪式感，不代表医疗、投资或好运保证。</p>
+
+  <section class="intro">
+    <p class="eyebrow">一串珠子，是一份看得见的心愿</p>
+    <h2>不是预言，<br>是每天戴在手上的小提醒。</h2>
+    <p>挑选时先看喜欢的颜色、触感与生活愿望，再把它们组合成只属于你的日常心意手串。</p>
+    <div class="intro-seal">心愿<br>成串</div>
+  </section>
+
+  <section class="family" id="family">
+    <header>
+      <span>01 · FAMILY RECIPES</span>
+      <h2>一家四人的<br>专属晶运配方</h2>
+      <p>点击“装入 DIY 台”，就能继续替换珠子和调整手围。</p>
+    </header>
+    <div class="profile-list">
+      <article class="profile-card">
+        <div class="profile-number">01</div>
+        <div class="profile-head"><span class="avatar">🌸</span><div><h3>铃铛</h3><p>40岁 · 家庭的温柔主理人</p></div></div>
+        <blockquote>“把温柔留给家人，也要留一点给自己”</blockquote>
+        <div class="mini-bracelet" data-palette="rose,amethyst,moonstone,clear"></div>
+        <dl><div><dt>心愿主题</dt><dd>人缘 · 松弛 · 家庭和合</dd></div><div><dt>配珠建议</dt><dd>粉晶 8 · 紫水晶 4 · 月光石 4 · 白水晶 4</dd></div></dl>
+        <p class="profile-note">粉晶做主色，紫水晶压住节奏，月光石与白水晶提亮。适合日常、聚会与需要耐心沟通的日子。</p>
+        <button class="load-preset" data-palette="rose,amethyst,moonstone,clear">把这套装入 DIY 台 <span>→</span></button>
+      </article>
+
+      <article class="profile-card">
+        <div class="profile-number">02</div>
+        <div class="profile-head"><span class="avatar">🐯</span><div><h3>李水子</h3><p>40岁 · 稳重行动派</p></div></div>
+        <blockquote>“稳住边界，认准方向，再出手”</blockquote>
+        <div class="mini-bracelet" data-palette="obsidian,tiger,smoky,clear"></div>
+        <dl><div><dt>心愿主题</dt><dd>守护 · 决断 · 事业稳进</dd></div><div><dt>配珠建议</dt><dd>黑曜石 10 · 虎眼石 6 · 茶晶 3 · 白水晶 1</dd></div></dl>
+        <p class="profile-note">黑曜石打底，虎眼石形成有力量的节奏，茶晶降低锐度。适合工作、出差或需要做重要决定时。</p>
+        <button class="load-preset" data-palette="obsidian,tiger,smoky,clear">把这套装入 DIY 台 <span>→</span></button>
+      </article>
+
+      <article class="profile-card">
+        <div class="profile-number">03</div>
+        <div class="profile-head"><span class="avatar">📚</span><div><h3>李钰阳</h3><p>24岁 · 在读研究生</p></div></div>
+        <blockquote>“思路清楚，表达有力，论文稳稳推进”</blockquote>
+        <div class="mini-bracelet" data-palette="fluorite,lapis,clear,amethyst"></div>
+        <dl><div><dt>心愿主题</dt><dd>学业 · 专注 · 答辩表达</dd></div><div><dt>配珠建议</dt><dd>萤石 8 · 青金石 5 · 白水晶 5 · 紫水晶 2</dd></div></dl>
+        <p class="profile-note">萤石负责学习氛围，青金石做汇报焦点，白水晶拉开呼吸感。适合读文献、写论文和组会答辩。</p>
+        <button class="load-preset" data-palette="fluorite,lapis,clear,amethyst">把这套装入 DIY 台 <span>→</span></button>
+      </article>
+
+      <article class="profile-card">
+        <div class="profile-number">04</div>
+        <div class="profile-head"><span class="avatar">🚗</span><div><h3>李雨彤</h3><p>26岁 · 车企职场新锐</p></div></div>
+        <blockquote>“明亮自信，也有从容转弯的余地”</blockquote>
+        <div class="mini-bracelet" data-palette="citrine,garnet,aquamarine,moonstone"></div>
+        <dl><div><dt>心愿主题</dt><dd>事业机会 · 沟通 · 活力</dd></div><div><dt>配珠建议</dt><dd>黄水晶 7 · 石榴石 5 · 海蓝宝 5 · 月光石 3</dd></div></dl>
+        <p class="profile-note">黄水晶明亮醒目，石榴石增强色彩力量，海蓝宝让表达更轻盈。适合会议、汇报与开启新项目。</p>
+        <button class="load-preset" data-palette="citrine,garnet,aquamarine,moonstone">把这套装入 DIY 台 <span>→</span></button>
+      </article>
+    </div>
+  </section>
+
+  <section class="diy" id="diy">
+    <header><span>02 · DESIGN YOUR OWN</span><h2>铃铛的<br>手串 DIY 台</h2><p>调整手围与珠径，再点选喜欢的水晶加入手串。</p></header>
+    <div class="designer">
+      <div class="bracelet-stage">
+        <div class="halo"></div>
+        <div class="bracelet" id="bracelet"><div class="bracelet-center"><span id="count">0/20</span><b id="status">继续添珠</b></div></div>
+        <div class="wish-output"><small>当前心愿组合</small><strong id="blessing">等待你放入第一颗心意珠</strong></div>
+      </div>
+      <div class="measure-panel">
+        <label><span>手围 <b><span id="wrist-value">16</span> cm</b></span><input id="wrist" type="range" min="14" max="20" step=".5" value="16"></label>
+        <div class="size-row"><span>珠径</span><div><button data-size="6">6 mm</button><button class="active" data-size="8">8 mm</button><button data-size="10">10 mm</button></div></div>
+        <p>建议约 <b id="target">20</b> 颗，制作前请按实际隔珠和松紧试戴。</p>
+      </div>
+      <div class="crystal-picker">
+        <div class="picker-title"><span>选择水晶</span><small>点选后按“加入一颗”</small></div>
+        <div class="crystal-buttons" id="crystal-buttons"></div>
+        <div class="active-info"><strong id="active-name"></strong><p id="active-meaning"></p><small id="active-suited"></small></div>
+        <button class="add-button" id="add">＋ 加入一颗</button>
+        <div class="diy-actions"><button id="undo">↶ 撤销</button><button id="clear">清空</button><button id="random">✦ 灵感随机配</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide">
+    <header><span>03 · CRYSTAL GUIDE</span><h2>谁适合戴什么？</h2><p>点开名字，查看传统寓意和适合的生活场景。</p></header>
+    <div class="guide-list" id="guide-list"></div>
+  </section>
+
+  <section class="care">
+    <span>04 · BUY & CARE</span><h2>买得明白，<br>戴得长久</h2>
+    <div class="care-grid">
+      <article><b>01</b><h3>先问清身份</h3><p>询问天然、实验室生长、仿制，以及是否染色、加热或填充处理。</p></article>
+      <article><b>02</b><h3>别迷信完美</h3><p>天然水晶常有棉絮、冰裂与色带，过分均匀不等于更好。</p></article>
+      <article><b>03</b><h3>温柔清洁</h3><p>用柔软湿布擦拭，避免香水、清洁剂、剧烈碰撞与长时间暴晒。</p></article>
+      <article><b>04</b><h3>听身体感受</h3><p>太紧、太重或皮肤不适就摘下；水晶寓意不能代替专业建议。</p></article>
+    </div>
+  </section>
+
+  <footer><span class="footer-bell">铃</span><h2>愿每一颗珠子，<br>都记得你认真生活的样子。</h2><p>铃铛的晶运手札 · 为一家人的日常心愿而作</p><a href="#family">再看一次专属配方 ↑</a></footer>
+</main>
+<script src="./app.js"></script>
+</body>
 </html>
